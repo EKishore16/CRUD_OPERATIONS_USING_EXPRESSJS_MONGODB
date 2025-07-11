@@ -41,25 +41,21 @@ express-mongodb-crud/
 ├── server.js # Entry point
 └── README.md
 
-## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
-### 1. Clone the Repo
-
+1. Clone the Repo
 ```bash
 git clone https://github.com/your-username/express-mongodb-crud.git
 cd express-mongodb-crud
 
-
-###  2. Install Dependencies
+2. Install Dependencies
 npm install
 
-### 3. Configure .env
+3. Configure .env
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
 
-
-
-### 4. 4. Run the Server
+4. Run the Server
 npm run dev
 
 
